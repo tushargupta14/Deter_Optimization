@@ -83,7 +83,7 @@ while iteration < N
         G = (kg* exp(-E_g/T_vec(1,t_curr)))*S^g;
         z_mat(t_next,:) = z_backward(z_mat(t_curr,:),y_mat(t_curr,:),delta_t,G,T_vec(1,t_curr),S,t_curr,t_next)
     end
-    break;
+    %break;
 % 
     for t_curr = 1:1:n
         
